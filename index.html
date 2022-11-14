@@ -40,6 +40,7 @@
     <main>
       <section id="about">
         <h2>About</h2>
+        <div class="row">
         <div class="section__description">
           <div class="section__description--wrapper">
             <p class="section__description--para">
@@ -59,28 +60,36 @@
             <img src="./HTML Practise Assets/about.jpg" alt="About" />
           </figure>
         </div>
+    </div>
       </section>
 
       <section id="discord">
-        <div>
-          <h2>Discord</h2>
-          <figure>
+        <h2>Discord</h2>
+        <div class="row">
+        <div class="section__description">
+          <figure class="about__img--wrapper">
             <img src="./HTML Practise Assets/discord.png" alt="Discord" />
-            <p>
+            </figure>
+            <div class="section__description--wrapper">
+            <p class="section__description--para">
               Lorem ipsum dolor sit amet, consectetur adipisicing elit. Tempore
               voluptatem, illo, repellendus unde eos culpa atque facilis quam
               nisi labore cumque. Nam quibusdam ad quisquam quas molestias
               corporis repudiandae labore?
             </p>
-            <p>
+            <p class="section__description--para">
               Lorem ipsum dolor sit, amet consectetur adipisicing elit. Earum
               veritatis eligendi, ratione fugit expedita minima velit cum aut,
               saepe provident deleniti animi architecto. At, omnis tempora
               dolores hic enim beatae?
             </p>
+            </div>
           </figure>
         </div>
+    </div>
       </section>
+
+
       <section id="contact">
         <h2>Contact</h2>
         <form action="">
@@ -90,20 +99,20 @@
           <label for="">Message</label>
           <textarea
             type="text"
-            placeholder="Write your message here"
+            placeholder="Cool website, lets get connected!"
           ></textarea>
-          <button>Submit</button>
+          <button>Contact us!</button>
         </form>
       </section>
     </main>
 
     <footer>
-      <img src="./HTML Practise Assets/FES.svg" alt="" />
-      <div>
-        <a href="#about">About</a>
-        <a href="#discord">Discord</a>
-        <a href="#contact">Contact</a>
-        <a href="">Courses</a>
+      <img class="footer__logo" src="./HTML Practise Assets/FES.svg" alt="" />
+      <div class="footer__links">
+        <a class="footer__link" href="#about">About</a>
+        <a class="footer__link" href="#discord">Discord</a>
+        <a class="footer__link" href="#contact">Contact</a>
+        <a class="footer__link" href="">Courses</a>
       </div>
       <p>Cpyright Frontend simplied</p>
     </footer>
